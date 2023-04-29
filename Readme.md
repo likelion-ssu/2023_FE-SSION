@@ -14,6 +14,7 @@
         <td align="center"><a href="https://github.com/Jun99uu"><img src="https://avatars.githubusercontent.com/u/44965706?v=4" width="100px;" alt=""/><br /><sub><b>Jun99uu</b></sub></a></td>
         <td align="center"><a href="https://github.com/candosh"><img src="https://avatars.githubusercontent.com/u/104755384?v=4" width="100px;" alt=""/><br /><sub><b>candosh</b></sub></a></td>
         <td align="center"><a href="https://github.com/gkswldnjs78"><img src="https://avatars.githubusercontent.com/u/89859244?v=4" width="100px;" alt=""/><br /><sub><b>gkswldnjs78</b></sub></a></td>
+        <td align="center"><a href="https://github.com/Goodyun92"><img src="https://avatars.githubusercontent.com/u/113508685?v=4" width="100px;" alt=""/><br /><sub><b>Goodyun92</b></sub></a></td>
    </tr>
 </table>
 
