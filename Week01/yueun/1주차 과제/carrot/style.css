@@ -1,0 +1,196 @@
+* {
+  box-sizing: border-box;
+  font-family: "SUIT Variable", sans-serif;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  min-width: 1200px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+}
+
+header {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 100px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  /* position: fixed; 안됨...*/
+}
+
+.header-ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.search-box {
+  padding: 10px;
+  width: 250px;
+  height: 45px;
+  font-size: 15px;
+  background-color: #f7f8fa;
+  border: none;
+  border-radius: 5px;
+}
+
+.chat-btn {
+  padding: 0 20px;
+  height: 45px;
+  font-size: 15px;
+  background-color: white;
+  border: solid 1px lightgray;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.chat-btn:hover {
+  background-color: #f7f8fa;
+}
+
+.container {
+  width: 100%;
+  height: 750px;
+  position: relative;
+} 
+
+.con1 {
+  background-color: rgb(236, 232, 228);
+}
+
+.text-box1 {
+  position: absolute;
+  top: 30%;
+  left: 15%;
+}
+
+.title {
+  margin-bottom: 30px;
+}
+
+.title h1 {
+  margin: 5px 0;
+  font-size: 3rem;
+}
+
+.app-img1 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.app-img2 {
+  position: absolute;
+  top: 10%;
+  left: 15%;
+}
+
+.text-box2 {
+  position: absolute;
+  right: 15%;
+  bottom: 30%;
+}
+
+.content p {
+  margin: 0 0 30px; 
+}
+
+.btn {
+  padding: 0 20px;
+  margin-right: 10px;
+  height: 45px;
+  font-size: 15px;
+  background-color: #ebebec;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.con3 {
+  background-color: rgb(208, 229, 208);
+}
+
+.text-box3 {
+  position: absolute;
+  left: 10%;
+  top: 30%;
+}
+
+.app-img3 {
+  position: absolute;
+  top: 5%;
+  right: 10%;
+}
+
+.icon-ul li {
+  margin: 10px;
+}
+
+.icon-ul li i {
+  background-color: rgb(147, 196, 147);
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  padding-top: 12px;
+  color: white;
+  text-align: center;
+}
+
+.footer-first {
+  width: 100%;
+  height: 150px;
+  text-align: center;
+  border-bottom: 0.5px solid lightgray;
+}
+
+.pop-text {
+  margin-top: 50px;
+}
+
+.pop-text ul {
+  justify-content: center;
+  gap: 25px;
+  margin-top: 30px;
+}
+
+a {
+  font-weight: 600;
+  color: black;
+}
+
+.footer-second {
+  width: 50%;
+  height: 320px;
+  margin: auto;
+  display: flex;
+  border-bottom: 0.5px solid lightgray;
+}
+
+.left {
+  display: flex;
+  margin-top: 40px;
+}
+
+.left-ul {
+  flex-direction: column;
+  gap: 30px;
+  margin-right: 40px;
+}
+
+.right {
+  margin: 20px 0 0 30px;
+}

@@ -3,16 +3,18 @@
  */
 function solution() {
   let info = [];
-  let myName; //본인의 이름을 담아주세요
-  let myAge; //본인의 나이를 담아주세요
-  let department; //본인의 학과를 담아주세요
-  let sId; //본인의 학번을 담아주세요
+  let myName = "jk"; //본인의 이름을 담아주세요
+  let myAge = 25; //본인의 나이를 담아주세요
+  let department = "sw"; //본인의 학과를 담아주세요
+  let sId = "20180318"; //본인의 학번을 담아주세요
 
+  info = [myName, myAge, department, sId];
   /**
    * info 배열에 순서대로 값을 넣어주세요!
    * [이름, 나이, 학과, 학번]
    */
 
+  ("안녕안녕~ 나는 ${myName}");
   let introduce; //배열을 이용해서 본인의 소개문을 작성해주세요!
   return introduce;
 }
