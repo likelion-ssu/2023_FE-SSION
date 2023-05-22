@@ -1,0 +1,152 @@
+body{
+    display: flex;
+}
+
+ul{
+    list-style-type: none;
+    margin-top: 40px;
+    padding-left: 0px;
+    font-size: 16px;
+}
+
+li{
+    padding: 9px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#hometext{
+    font-weight: 700;
+}
+
+.icon{
+    padding-right: 15px;
+}
+
+.more{
+    margin-top: 125px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 16px;
+}
+
+#moreicon{
+    margin-top: 5px;
+    margin-right: 12px;
+}
+
+p{
+    font-size: 25px;
+    margin-left: 12px;
+    font-family: 'Lobster', cursive;
+}
+
+nav{
+    position: fixed;
+    margin-left: 10px;
+    border-right: groove;
+    border-width: 1px;
+    border-color: gainsboro;
+    width: 225px;
+    height: 1000px;
+}
+
+.center{
+    position: relative;
+    left: 400px;
+    margin-left: 50px;
+}
+
+.right-side{
+    margin-left: 435px;
+    margin-top: 25px;
+}
+
+.story{
+    border: groove;
+    border-width: 1px;
+    border-color: gainsboro;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.post{
+    border: groove;
+    border-width: 1px;
+    border-color: gainsboro;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.comment{
+    margin-top: 15px;
+    font-size: 12px;
+    color: darkgrey;
+}
+
+.reply{
+    border-top: groove;
+    border-width: 1px;
+    border-color: gainsboro;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+#reply-emoji{
+    margin-left: 7px;
+}
+
+#reply-text{
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+#reply-button{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: white;
+    color: skyblue;
+    font-weight: 650;
+    margin-left: 230px;
+}
+
+.allchecked{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: groove;
+    border-width: 1px;
+    border-color: gainsboro;
+    border-radius: 15px;
+    width: 100%;
+    height: auto;
+}
+
+#line1{
+    font-size: 20px;
+}
+
+#line2{
+    font-size: 14px;
+    color: dimgray;
+}
+
+#line3{
+    font-size: 15px;
+    font-weight: 750;
+    color:blue;
+    margin-bottom: 25px;
+    margin-top: 5px;
+}
+
+#checkimg{
+    margin-top: 20px;
+}
