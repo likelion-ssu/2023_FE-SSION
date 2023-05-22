@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+  font-family: "SUIT Variable", sans-serif;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  min-width: 1400px;
+}
+
+
+nav {
+  width: 250px;
+  height: 100%;
+  padding-left: 20px;
+  border-right: solid 1px lightgray;
+  position: fixed;
+}
+.logo {
+  width: 100px;
+  margin: 40px 0;
+}
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+button {
+  width: 210px;
+  height: 50px;
+  margin-bottom: 5px;
+  padding: 5px;
+  font-size: 15px;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: left;
+}
+button:hover {
+  background-color: #ebebec;
+}
+i {
+  margin: 0 10px 3px 0;
+  font-size: 20px;
+  vertical-align: middle;
+}
+.profile-img {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  margin: 0 10px 3px 0;
+  object-fit: cover;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  vertical-align: middle;
+}
+.extra-menu {
+  margin-top: 50px;
+}
+
+
+main {
+  margin-left: 250px;
+  width: 55%;
+  text-align: center;
+}
+.story {
+  width: 630px;
+  margin-top: 15px;
+}
+.feed img {
+  width: 520px;
+}
+
+
+.profile {
+  margin-top: 40px;
+  width: 300px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.profile-photo {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+.text {
+  margin: 0 7px;
+}
+.profile-name p, .follow-name p {
+  color: grey;
+}
+.profile span, .follow span {
+  position: absolute;
+  right: 0px;
+  font-size: 12px;
+  color: cornflowerblue;  
+}
+.recommend {
+  width: 300px;
+  margin-top: 20px;
+  font-size: 13px;
+  display: flex;
+  justify-content: space-between;
+}
+.follow-box {
+  margin-top: 10px;
+}
+.follow {
+  width: 300px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.follow-photo {
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+}
+.follow-name {
+  font-size: 13px;
+}
+.info {
+  margin-top: 30px;
+}
+.info p {
+  color: lightgray;
+  font-size: 13px;
+  word-spacing: -2px;
+  margin: 5px 0; 
+}
+#corp {
+  margin-top: 25px;
+}

@@ -1,0 +1,236 @@
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#logo{
+    width: 100px;
+    height: 35px;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 230px;
+    position: fixed;
+    border-right: 1px solid rgba(125,125,125,90);
+    padding: 10px;
+}
+
+nav div:nth-child(1){
+    margin: 20px 0px;
+}
+
+nav div:nth-child(2) ul{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.icon{
+    width: 30px;
+    height: 30px;
+}
+
+.nav-menu{
+    height: 50px;
+    border-radius: 10px;
+    margin: 5px 0px;
+}
+
+.nav-menu-btn{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 10px;
+    gap: 20px;
+}
+
+.nav-menu:hover{
+    background-color: rgba(236, 230, 230, 0.409);
+}
+
+.nav-footer{
+    height: 50px;
+    border-radius: 10px;
+    margin: 30px 0px;
+    
+}
+.nav-footer:hover{
+    background-color: rgba(236, 230, 230, 0.409);
+}
+
+section{
+    margin-left: 240px;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+/*main start*/
+#main{
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+}
+
+/*story start*/
+
+#story{
+    padding: 0 50px;
+}
+
+#story ul{
+    display: flex;
+    gap: 10px;
+}
+
+.story-pro{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.story-pro-img{
+    border-radius: 50px;
+    width: 70px;
+    height: 70px;
+    border: 3px solid rgb(236, 230, 230);
+    margin-right: 10px;
+}
+
+.story-id{
+    font-size: 13px;
+}
+
+/*story end*/
+
+/*post start*/
+
+#posts{
+    margin: 30px 100px;
+    
+}
+
+/* post start 게시물 하나 컴포넌트 css*/
+.post{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgb(36, 30, 30);
+}
+
+.post-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom:10px ;
+}
+
+.post-img{
+    width: 100%;
+}
+
+.post-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px0 ;
+}
+
+/*post end*/
+
+/*rigth-side start*/
+
+#rigth-side{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    padding-left: 50px;
+}
+
+#r-side-my{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+}
+
+#r-side-mypro{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.r-side-rbtn{
+    font-size: 13px;
+    font-weight: 500;
+    color: rgb(59, 205, 253);
+}
+
+#r-side-fr{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#r-side-fr p{
+    font-size: 15px;
+    font-weight: 800;
+    color: rgba(136, 130, 130,50);
+}
+
+#r-side-fr a{
+    font-size: 13px;
+    font-weight: 1000;
+    color: rgba(136, 130, 130,50);
+}
+
+#r-side-reco{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.reco-friend{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.reco-fri-pro{
+    display: flex;
+    flex-direction: row;
+}
+
+.reco-pro-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 40px;
+}
+.reco-friend-id{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    font-size: 12px;
+    justify-content: center;
+    padding-left: 20px;
+}
+
+.reco-friend-id p{
+    margin: 0px;
+}
+
+#footer{
+    font-size: 11px;
+    color: rgb(136, 130, 130);
+}
