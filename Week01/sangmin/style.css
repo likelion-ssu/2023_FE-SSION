@@ -1,0 +1,359 @@
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+    color: inherit;
+    font-family: -apple-system, "system-ui", "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+*,
+:after,
+:before {
+    box-sizing: border-box;
+    flex-shrink: 0;
+}
+:root {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    cursor: default;
+    line-height: 1.5;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    tab-size: 4;
+}
+html,
+body {
+    height: 100%;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+button {
+    background: none;
+    border: 0;
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+ul {
+    list-style: none;
+}
+
+.header {
+    width: 100vw;
+    height: 4rem;
+    padding: 1.2rem 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0 auto; */
+    top: 0;
+    position: fixed;
+    background-color: #ffffff;
+}
+
+.header--box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 75rem;
+}
+
+.header__nav__ul {
+    margin-top: 3px;
+    min-width: 40rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.header__nav__ul__li {
+    margin-left: 1.5rem;
+    color: #4d5159;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.--orange {
+    color: #ff6f0f;
+}
+
+.header__search__input {
+    width: 18rem;
+    height: 2.5rem;
+    padding-left: 1rem;
+    border: none;
+    border-radius: 6px;
+    background-color: #f2f3f6;
+}
+
+.header__search__submit {
+    width: 5.5625rem;
+    height: 2.5rem;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    background-color: #ffffff;
+}
+
+.main {
+    width: 100vw;
+}
+
+.main__section {
+    width: 100vw;
+    height: 784px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.main__section__article {
+    display: flex;
+    flex-direction: column;
+    margin: 0 8rem;
+}
+
+.main__section__article__title {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+.main__section__article__content {
+    font-weight: 400;
+}
+
+.main__nav {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.main__link {
+    width: fit-content;
+    margin: 2rem 2rem 0 0;
+    padding: 0.75rem 1.25rem;
+    background-color: #f1f3f5;
+    border-radius: 6px;
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+
+.main__section__img {
+    height: 100%;
+    margin: 0 3rem;
+}
+
+.main__section:first-child {
+    padding-top: 4rem;
+    background: #fbf7f2;
+}
+
+.main__section:nth-child(3) {
+    padding-top: 4rem;
+    background: #e6f3e6;
+}
+
+.main-story-list {
+    display: flex;
+    margin-top: 2.5rem;
+}
+
+.main-story-list__item {
+    display: flex;
+    flex-direction: column;
+    width: 8.75rem;
+    height: 8.75rem;
+    margin: 1rem 0;
+    margin-right: 2.5rem;
+}
+
+.main-story-list__item:first-child {
+    width: 7.5rem;
+}
+
+.main-story-list__img {
+    width: 3.5rem;
+}
+
+.main-story-list__name {
+    font-size: 0.875rem;
+    font-weight: 600;
+    margin: 1rem 0 0.5rem 0;
+}
+
+.main-story-list__sub {
+    font-size: 0.8125rem;
+}
+
+.main__section--popular {
+    height: 1087px;
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+    padding: 3.75rem 13rem 7.5rem 13rem;
+}
+
+.popular-title {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 3.75rem;
+}
+
+.popular-list {
+    min-width: 1024px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.popular-item {
+    margin-bottom: 56px;
+}
+
+.popular-item__img {
+    width: 212px;
+    height: 212px;
+    border-radius: 12px;
+    margin-bottom: 12px;
+}
+
+.popular-item__sub-title {
+    margin-bottom: 4px;
+}
+
+.popular-item__sub-price {
+    font-weight: 600;
+    font-size: 0.9375rem;
+    margin-bottom: 8px;
+}
+
+.popular-item__sub-address {
+    font-size: 0.8125rem;
+    margin: 4px 0;
+}
+
+.popular-item__sub-info {
+    font-size: 0.8125rem;
+    color: #868e96;
+}
+
+.deco-link {
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.keyword-section {
+    width: 1024px;
+    margin: 2.5rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.keyword-list {
+    width: 100%;
+    height: 56px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 2.5rem;
+}
+
+.keyword-list__item:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    border-top: 1px solid #ced4da;
+}
+
+.footer-menu {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    max-width: 48rem;
+    margin: 0 auto;
+    padding: 3rem 0;
+}
+
+.footer-menu__nav {
+    display: flex;
+    width: 29rem;
+    height: 16rem;
+}
+
+.footer-menu__list {
+    width: 33%;
+}
+
+.footer-menu__item {
+    margin: 1.5rem;
+    font-size: 14px;
+    color: #212124;
+    font-weight: 400;
+}
+
+.footer-app {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-app__text {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.footer-app__nav {
+    display: flex;
+}
+
+.footer-company {
+    width: 48rem;
+    padding: 1.5rem 0 6.25rem 0;
+    border-top: 1px solid #ced4da;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-info__company {
+    font-size: 13px;
+    color: #949aa0;
+}
+
+.footer-info__cs {
+    font-size: 13px;
+    color: #949aa0;
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.footer-info__rule {
+    font-size: 13px;
+    color: #949aa0;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.footer-contact {
+    display: flex;
+    gap: 1rem;
+}
+
+.footer-contact__list {
+    display: flex;
+    gap: 1rem;
+}
