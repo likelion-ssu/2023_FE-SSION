@@ -1,6 +1,42 @@
 //변수 선언
-const firstName = "준규";
+const firstName = true;
 let lastName = "이";
+
+let arr1 = [];
+let arr2 = new Array();
+
+arr1[0] = "지원";
+arr1[1] = "수연";
+
+arr2[0] = "해솔";
+arr2[1] = "동윤";
+arr2[2] = "유은";
+
+console.log(arr1.length);
+console.log(arr2.length);
+console.log(arr1.toString());
+
+let year = 0;
+
+while (year < 20) {
+  year++;
+}
+
+console.log(year);
+
+year;
+console.log(typeof firstName);
+
+const tmp = 100; //number
+const tmp1 = String(tmp); // string;
+
+// console.log("타입은", typeof tmp1);
+
+const tmp2 = "10";
+const tmp3 = Number(tmp2);
+console.log("타입은", typeof tmp3);
+
+const tmp5 = 5;
 
 // console.log(firstName, lastName);
 
