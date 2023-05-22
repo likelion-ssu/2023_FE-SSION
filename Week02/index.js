@@ -9,7 +9,7 @@ let property_object1 = {
 // }
 
 let person = {
-  name: "Junkyu",
+  name: "Jiwon",
 };
 
 //객체에 해당 프로퍼티가 존재하므로, 프로퍼티의 값을 갱신함
