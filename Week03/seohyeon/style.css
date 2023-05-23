@@ -1,0 +1,144 @@
+*{
+    box-sizing: border-box;
+    font-family: "SUIT Variable", sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+ul{
+    list-style: none;
+    margin-top: 0px;
+    padding-left: 0px;
+    font-size: 15px;
+}
+
+li{
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+}
+  
+header {
+    background-color: #ffffff;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    width: 100%;
+}
+ .container {
+    display: flex;
+    flex: 1;
+    width: 100%;
+  }
+ .left-aside {
+
+    background-color: #ffffff;
+    width: 250px;
+    padding: 20px;
+  }
+  
+  .main-content {
+    flex-grow: 1;
+    padding: 20px;
+    margin-left: 10px;
+    width: 100%;
+  }
+  
+  .head-ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  
+  .head-ul li {
+    margin: 0 10px;
+  }
+  
+  #top1 {
+    margin-right: auto;
+  }
+  
+  #top2 {
+    margin: 0 auto;
+  }
+  
+  #top3 {
+    margin-left: auto;
+  }
+  
+  #searchBox {
+    width: 60%;
+    height: 28px;
+    flex-grow: 1;
+    background-color: rgb(244, 243, 243);
+    color: grey;
+    border: none;
+  }
+  
+  #searching-botton,
+  #mic,#video-upload,
+  #notic {
+    margin-left: 10px;
+  }
+  
+  #profile {
+    margin-left: 10px;
+    border-radius: 50%;
+  }
+  
+  .left-aside nav {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .side-bar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .side-bar ul li {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+  }
+  
+  .side-bar .icon {
+    margin-right: 10px;
+  }
+  
+  .side-bottom ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+    color: rgb(165, 165, 165);
+  }
+  
+  .side-bottom ul li {
+    padding: 5px 0;
+  }
+  
+  .side-bottom ul:last-child li:last-child {
+    margin-bottom: 0;
+  }
+
+  .content-select {
+    width: 100%;
+  }
+  
+  .main-img {
+    width: 100%;
+  }
+  
